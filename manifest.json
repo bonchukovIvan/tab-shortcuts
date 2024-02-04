@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Tab to the Right Shortcut",
+    "version": "1.0",
+    "description": "Open a new tab to the right with a shortcut.",
+    "permissions": ["tabs"],
+    "commands": {
+        "new-tab-right": {
+          "suggested_key": {
+            "default": "Ctrl+Q"
+          },
+          "description": "Open a new tab to the right"
+        }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+}
