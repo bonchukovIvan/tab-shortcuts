@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(115, 129, 127);
+}
+
+.content-body {
+    padding: 25px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+}
+p.about {
+    text-align: center;
+}
+
+.command {
+    display: flex;
+    align-items: center;
+}
+
+.shortcut-about {
+    padding-left: 5px;
+}

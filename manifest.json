@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Tab to the Right Shortcut",
+    "name": "Tabs shortcuts",
     "version": "1.0",
     "description": "Open a new tab to the right with a shortcut.",
     "permissions": ["tabs"],

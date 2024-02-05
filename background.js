@@ -1,3 +1,11 @@
+chrome.runtime.onInstalled.addListener(details => {
+  if (details.reason === chrome.runtime.OnInstalledReason.INSTALL) {
+    chrome.tabs.create({
+      url: "views/installed.html"
+    });
+  }
+});
+
 chrome.commands.onCommand.addListener(function (command) {
   if (command === "new-tab-right") {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
