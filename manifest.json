@@ -1,15 +1,28 @@
 {
     "manifest_version": 3,
-    "name": "Tab to the Right Shortcut",
+    "name": "Tabs shortcuts",
     "version": "1.0",
     "description": "Open a new tab to the right with a shortcut.",
-    "permissions": ["tabs"],
+    "permissions": [
+      "tabs",
+      "tabGroups"
+    ],
+    "icons": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
     "commands": {
         "new-tab-right": {
           "suggested_key": {
             "default": "Ctrl+Q"
           },
           "description": "Open a new tab to the right"
+        },
+        "new-group": {
+          "suggested_key": "Ctrl+B",
+          "description": "Inject a script on the page"
         }
     },
     "background": {

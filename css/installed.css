@@ -1,0 +1,44 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 238, 238);
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(245, 196, 106);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.content-body {
+    padding: 25px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+}
+p.about {
+    text-align: center;
+}
+
+.command {
+    display: flex;
+    align-items: center;
+}
+
+.shortcut-about {
+    padding-left: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
