@@ -23,6 +23,10 @@
         "new-group": {
           "suggested_key": "Ctrl+B",
           "description": "Inject a script on the page"
+        },
+        "duplication": {
+          "suggested_key": "Alt+V",
+          "description": "Duplicate tab"
         }
     },
     "background": {

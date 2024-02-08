@@ -24,6 +24,13 @@ chrome.commands.onCommand.addListener(function (command) {
       });
     });
   }
+
+  if (command === "duplication") {
+    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+      const id = tabs[0].id;
+      chrome.tabs.duplicate(id);
+    });
+  }
 });
 
 function makeName(length) {
